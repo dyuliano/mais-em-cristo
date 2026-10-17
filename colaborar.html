@@ -1,0 +1,57 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light dark"><meta name="theme-color" content="#0B0F1C"><meta name="description" content="Um convite sem pressa, para quem quiser ajudar a manter o app."><link rel="icon" href="icon.png"><title>Colaborar · Mais em Cristo</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet"><style>
+:root{--bg:#F6F1E6;--bg2:#EFE7D6;--card:#FFFFFF;--ink:#1B2133;--mut:#4A5168;--gold:#7A4A08;--goldb:#E0A93B;--ribbon:#2A63B8;--line:#E2D8C2;--hero1:#0B0F1C;--hero2:#263156;--halo:rgba(251,222,146,.35)}
+@media (prefers-color-scheme:dark){:root{--bg:#0B0F1C;--bg2:#121830;--card:#161D38;--ink:#EEF0F7;--mut:#B4BBD0;--gold:#FBDE92;--goldb:#E0A93B;--ribbon:#7FAEF0;--line:#2A3358;--halo:rgba(251,222,146,.18)}}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:16px}
+body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.65 'Instrument Sans',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;-webkit-text-size-adjust:100%}
+h1,h2,h3,.brand b{font-family:'Fraunces',Georgia,serif;line-height:1.2;letter-spacing:-.01em}
+a{color:var(--ribbon);text-underline-offset:3px}a:focus-visible,summary:focus-visible{outline:3px solid var(--goldb);outline-offset:3px;border-radius:6px}
+.top{background:linear-gradient(160deg,var(--hero1),var(--hero2));color:#EEF0F7;position:relative;overflow:hidden}
+.top:before{content:"";position:absolute;width:520px;height:520px;right:-160px;top:-260px;background:radial-gradient(circle,var(--halo),transparent 65%);pointer-events:none}
+.bar{max-width:880px;margin:0 auto;padding:14px 20px;display:flex;flex-wrap:wrap;gap:6px 18px;align-items:center;position:relative}
+.brand{display:flex;align-items:center;gap:10px;color:#FBDE92;text-decoration:none;margin-right:auto}.brand img{width:36px;height:36px;border-radius:9px}.brand b{font-size:20px;font-weight:600}
+.bar nav a{color:#DDE3F5;text-decoration:none;margin-left:14px;padding:6px 0;font-weight:500}.bar nav a:hover,.bar nav a[aria-current]{color:#FBDE92;text-decoration:underline}
+.hero{max-width:880px;margin:0 auto;padding:36px 20px 52px;position:relative}
+.hero.home{text-align:center;padding:48px 20px 64px}.hero.home img{width:112px;height:112px;border-radius:26px;box-shadow:0 0 0 1px rgba(251,222,146,.35),0 0 60px var(--halo)}
+.hero h1{font-size:clamp(30px,6vw,46px);margin:.4em 0 .2em;font-weight:600;background:linear-gradient(180deg,#FBDE92,#E0A93B 70%,#C98A24);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{max-width:600px;margin:.4em auto;color:#DDE3F5;font-size:20px}.hero:not(.home) p{margin-left:0}
+.stores{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:26px}
+.btn{display:inline-block;padding:13px 22px;border-radius:999px;font-weight:600;text-decoration:none;background:linear-gradient(180deg,#FBDE92,#E0A93B);color:#2A1A02;box-shadow:0 6px 24px rgba(224,169,59,.25)}.btn.alt{background:transparent;color:#FBDE92;box-shadow:inset 0 0 0 2px #FBDE92}
+.btn:hover{filter:brightness(1.08)}.btn:focus-visible{outline:3px solid #fff;outline-offset:3px}
+main{max-width:760px;margin:0 auto;padding:28px 20px 56px}
+h2{font-size:26px;margin:1.8em 0 .5em;font-weight:600;color:var(--ink)}h2:before{content:"";display:block;width:36px;height:3px;border-radius:3px;background:linear-gradient(90deg,var(--goldb),var(--ribbon));margin-bottom:12px}
+main>h2:first-child{margin-top:.2em}h3{font-size:20px}
+p,li{max-width:68ch}li{margin:6px 0}ul{padding-left:1.3em}li::marker{color:var(--goldb)}
+code{background:var(--bg2);padding:1px 6px;border-radius:5px;font-size:.92em}
+blockquote{margin:0 0 24px;padding:14px 18px;background:var(--card);border:1px solid var(--line);border-left:4px solid var(--goldb);border-radius:12px;color:var(--mut);font-size:16px}
+.toc{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:6px 20px 14px;margin:0 0 28px}.toc summary{cursor:pointer;font:600 18px 'Fraunces',Georgia,serif;padding:12px 0}
+.toc ol{margin:0;padding-left:1.4em;columns:2 260px;column-gap:28px}.toc li{margin:4px 0;font-size:16px}.toc a{color:var(--ink);text-decoration:none}.toc a:hover{color:var(--ribbon);text-decoration:underline}
+.sec{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:6px 22px 14px;margin:0 0 18px}.sec h2{margin-top:.9em}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin:0 0 8px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px}.card h3{margin:0 0 6px;font-size:20px;color:var(--gold)}.card p{margin:0;color:var(--mut);font-size:16.5px}
+.lead{font-size:20px;color:var(--mut)}
+details.pix,.pix{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 22px;margin:18px 0;text-align:center}
+.pix img{width:220px;height:220px;max-width:100%;background:#fff;padding:8px;border-radius:12px;image-rendering:pixelated}
+.pix code{display:inline-block;font-size:1.05em;padding:6px 10px;word-break:break-all}
+.pix button{font:inherit;font-weight:600;cursor:pointer;border:0;margin:6px;padding:12px 22px;min-height:44px;border-radius:999px;background:linear-gradient(180deg,#FBDE92,#E0A93B);color:#2A1A02}
+.pix button:focus-visible{outline:3px solid var(--ribbon);outline-offset:3px}
+footer{background:var(--bg2);border-top:1px solid var(--line);padding:26px 20px 40px;text-align:center;color:var(--mut);font-size:15.5px}
+footer a{color:var(--ink);margin:0 4px}footer p{margin:6px auto;max-width:none}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style></head><body><div class="top"><div class="bar"><a class="brand" href="index.html"><img src="icon.png" width="36" height="36" alt=""><b>Mais em Cristo</b></a><nav aria-label="Principal"><a href="privacidade.html">Privacidade</a><a href="termos.html">Termos</a><a href="suporte.html">Suporte</a></nav></div><div class="hero"><h1>Colaborar</h1><p>Um convite sem pressa, para quem quiser ajudar a manter o app.</p></div></div><main><p class="lead">O Mais em Cristo é gratuito, sem anúncios e sem pedir conta. Ele é mantido com carinho, no tempo que Deus dá.</p>
+<p>Se este app tem feito bem à sua caminhada e você quiser colaborar, ficamos gratos. É totalmente opcional: nada muda no app para quem contribui ou não, e você continua sempre bem-vindo.</p>
+<div class="pix">
+<h2 style="margin-top:0">Colaborar por Pix</h2>
+<img src="pix_qr.png" width="220" height="220" alt="QR Code do Pix para colaborar com o Mais em Cristo">
+<p>Aponte a câmera do aplicativo do seu banco para o QR Code, ou copie o código e cole na opção "Pix copia e cola":</p>
+<p><button type="button" id="copiar" data-copy="00020126520014br.gov.bcb.pix0130dyulianoceciliosouza@gmail.com5204000053039865802BR5916Dyuliano Cecilio6009SAO PAULO62070503***63041FB0">Copiar código Pix</button></p>
+<p id="aviso" role="status" aria-live="polite" style="min-height:1.6em;color:var(--mut)"></p>
+</div>
+<p>O pagamento acontece no aplicativo do seu banco, fora do app e deste site. Não coletamos nem guardamos dados de pagamento. Veja a <a href="privacidade.html">Política de Privacidade</a>.</p>
+<p>Outra forma de ajudar, que não custa nada: conte a um amigo, ou deixe uma avaliação na loja. Que Deus abençoe você.</p>
+<script>
+document.querySelectorAll('[data-copy]').forEach(function(b){b.addEventListener('click',function(){
+var t=b.getAttribute('data-copy'),a=document.getElementById('aviso');
+function ok(){a.textContent='Copiado. Obrigado pelo carinho!'}
+function no(){a.textContent='Não deu para copiar. Selecione o texto e copie.'}
+if(navigator.clipboard){navigator.clipboard.writeText(t).then(ok,no)}else{no()}})});
+</script></main><footer><p><a href="privacidade.html">Privacidade</a> · <a href="termos.html">Termos</a> · <a href="suporte.html">Suporte</a> · <a href="colaborar.html">Colaborar</a></p><p>© 2026 Dyuliano Cecilio</p></footer></body></html>
